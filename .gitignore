@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+
+# Flask migrations (keep folder, ignore compiled cache)
+backend/migrations/versions/__pycache__/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Docker volumes / OS
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/
